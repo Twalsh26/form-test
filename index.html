@@ -13,10 +13,10 @@
         <h1>Burgers</h1>
         <p>log in to make burgers</p>
         <label for="username">Username?</label>
-        <input type="text" name="username" id="username">
+        <input type="text" name="username" id="username" required>
         <br>
         <label for="user-pw">Password?</label>
-        <input type="password" name="user-pw" id="user-pw">
+        <input type="password" name="user-pw" id="user-pw" maxlength="5" required>
          <br>
         <section class="Protein">
         <label for="amount">What amount of patties would you like to eat here?</label>
@@ -75,7 +75,7 @@
            <section class="extra-info">
             <label for="extra">Anything else you want to add</label>
             <br>
-            <textarea name="extra" id="extra" cols="40" rows="3"></textarea>
+            <textarea name="extra" id="extra" cols="40" rows="3" placeholder="Type text here"></textarea>
           </section>
           <br>
           <section class="submission">
